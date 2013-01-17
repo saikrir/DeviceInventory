@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E60287931693507800A203CE /* DeviceAppUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = E60287921693507800A203CE /* DeviceAppUtilities.m */; };
+		E60ACDB9168E1F9A0000CDE6 /* Device.m in Sources */ = {isa = PBXBuildFile; fileRef = E60ACDB8168E1F9A0000CDE6 /* Device.m */; };
+		E60ACDBB168E22FD0000CDE6 /* macbook_pro.png in Resources */ = {isa = PBXBuildFile; fileRef = E60ACDBA168E22FD0000CDE6 /* macbook_pro.png */; };
+		E60ACDBD168E24AB0000CDE6 /* iPod.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E60ACDBC168E24AB0000CDE6 /* iPod.jpg */; };
+		E60ACDBF168E25D80000CDE6 /* Samsung-SII.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E60ACDBE168E25D80000CDE6 /* Samsung-SII.jpg */; };
+		E60ACDC3168E263D0000CDE6 /* Devices.json in Resources */ = {isa = PBXBuildFile; fileRef = E60ACDC2168E263D0000CDE6 /* Devices.json */; };
+		E60ACDCC168E2B090000CDE6 /* DeviceDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E60ACDCA168E2B080000CDE6 /* DeviceDetailViewController.m */; };
+		E60ACDCD168E2B090000CDE6 /* DeviceDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E60ACDCB168E2B080000CDE6 /* DeviceDetailViewController.xib */; };
+		E60ACDD8168E364C0000CDE6 /* tick.png in Resources */ = {isa = PBXBuildFile; fileRef = E60ACDD7168E364C0000CDE6 /* tick.png */; };
+		E616D3111675642500C74DD6 /* DeviceData.plist in Resources */ = {isa = PBXBuildFile; fileRef = E616D3101675642500C74DD6 /* DeviceData.plist */; };
+		E6253F78165BEA250063B644 /* TabletsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6253F76165BEA250063B644 /* TabletsViewController.m */; };
+		E6253F79165BEA250063B644 /* TabletsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6253F77165BEA250063B644 /* TabletsViewController.xib */; };
+		E6253F7D165BEAAC0063B644 /* PersonalDevicesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6253F7B165BEAAC0063B644 /* PersonalDevicesViewController.m */; };
+		E6253F7E165BEAAC0063B644 /* PersonalDevicesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6253F7C165BEAAC0063B644 /* PersonalDevicesViewController.xib */; };
+		E633BE8A1665BD3500846171 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E633BE881665BD3500846171 /* SearchViewController.m */; };
+		E633BE8B1665BD3500846171 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E633BE891665BD3500846171 /* SearchViewController.xib */; };
+		E65BC75216648B6800AB9548 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E65BC75116648B6800AB9548 /* CoreData.framework */; };
+		E65BC75A1664904500AB9548 /* DeviceDataAccessService.m in Sources */ = {isa = PBXBuildFile; fileRef = E65BC7591664904500AB9548 /* DeviceDataAccessService.m */; };
 		E66F49AC1657F19E00CEAF18 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E66F49AB1657F19E00CEAF18 /* UIKit.framework */; };
 		E66F49AE1657F19E00CEAF18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E66F49AD1657F19E00CEAF18 /* Foundation.framework */; };
 		E66F49B01657F19E00CEAF18 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E66F49AF1657F19E00CEAF18 /* CoreGraphics.framework */; };
@@ -16,11 +34,51 @@
 		E66F49BE1657F19E00CEAF18 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E66F49BD1657F19E00CEAF18 /* Default.png */; };
 		E66F49C01657F19E00CEAF18 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E66F49BF1657F19E00CEAF18 /* Default@2x.png */; };
 		E66F49C21657F19E00CEAF18 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E66F49C11657F19E00CEAF18 /* Default-568h@2x.png */; };
-		E66F49C51657F19E00CEAF18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E66F49C41657F19E00CEAF18 /* ViewController.m */; };
-		E66F49C81657F19E00CEAF18 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E66F49C61657F19E00CEAF18 /* ViewController.xib */; };
+		E66F49C51657F19E00CEAF18 /* LaptopsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E66F49C41657F19E00CEAF18 /* LaptopsViewController.m */; };
+		E66F49C81657F19E00CEAF18 /* LaptopsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E66F49C61657F19E00CEAF18 /* LaptopsViewController.xib */; };
+		E6E640DE168783C6008741BC /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E640DC168783C6008741BC /* SplashViewController.m */; };
+		E6E640DF168783C6008741BC /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6E640DD168783C6008741BC /* SplashViewController.xib */; };
+		E6E640E816878491008741BC /* asus_asipre.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E6E640E116878491008741BC /* asus_asipre.jpg */; };
+		E6E640E916878491008741BC /* hp_8460p.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E6E640E216878491008741BC /* hp_8460p.jpg */; };
+		E6E640EB16878491008741BC /* IPad_3.png in Resources */ = {isa = PBXBuildFile; fileRef = E6E640E416878491008741BC /* IPad_3.png */; };
+		E6E640EC16878491008741BC /* galaxyTab.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E6E640E516878491008741BC /* galaxyTab.jpg */; };
+		E6E640EE16878491008741BC /* satellite-s855-s5254-laptop.png in Resources */ = {isa = PBXBuildFile; fileRef = E6E640E716878491008741BC /* satellite-s855-s5254-laptop.png */; };
+		E6E640F0168785C1008741BC /* Splash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E6E640EF168785C1008741BC /* Splash.jpg */; };
+		E6F2DFCB1660CBCC0071F248 /* DeviceInventory.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E6F2DFC91660CBCC0071F248 /* DeviceInventory.xcdatamodeld */; };
+		F754A42816A7842300B4C31F /* laptop.png in Resources */ = {isa = PBXBuildFile; fileRef = F754A42416A7842300B4C31F /* laptop.png */; };
+		F754A42916A7842300B4C31F /* magnify.png in Resources */ = {isa = PBXBuildFile; fileRef = F754A42516A7842300B4C31F /* magnify.png */; };
+		F754A42A16A7842300B4C31F /* phones.png in Resources */ = {isa = PBXBuildFile; fileRef = F754A42616A7842300B4C31F /* phones.png */; };
+		F754A42B16A7842300B4C31F /* tablet.png in Resources */ = {isa = PBXBuildFile; fileRef = F754A42716A7842300B4C31F /* tablet.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E60287911693507800A203CE /* DeviceAppUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceAppUtilities.h; sourceTree = "<group>"; };
+		E60287921693507800A203CE /* DeviceAppUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceAppUtilities.m; sourceTree = "<group>"; };
+		E60ACDB7168E1F9A0000CDE6 /* Device.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Device.h; sourceTree = "<group>"; };
+		E60ACDB8168E1F9A0000CDE6 /* Device.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Device.m; sourceTree = "<group>"; };
+		E60ACDBA168E22FD0000CDE6 /* macbook_pro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = macbook_pro.png; sourceTree = "<group>"; };
+		E60ACDBC168E24AB0000CDE6 /* iPod.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iPod.jpg; sourceTree = "<group>"; };
+		E60ACDBE168E25D80000CDE6 /* Samsung-SII.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Samsung-SII.jpg"; sourceTree = "<group>"; };
+		E60ACDC2168E263D0000CDE6 /* Devices.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Devices.json; sourceTree = "<group>"; };
+		E60ACDC9168E2B080000CDE6 /* DeviceDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceDetailViewController.h; sourceTree = "<group>"; };
+		E60ACDCA168E2B080000CDE6 /* DeviceDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceDetailViewController.m; sourceTree = "<group>"; };
+		E60ACDCB168E2B080000CDE6 /* DeviceDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeviceDetailViewController.xib; sourceTree = "<group>"; };
+		E60ACDD7168E364C0000CDE6 /* tick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tick.png; sourceTree = "<group>"; };
+		E616D3101675642500C74DD6 /* DeviceData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DeviceData.plist; sourceTree = "<group>"; };
+		E6253F75165BEA250063B644 /* TabletsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabletsViewController.h; sourceTree = "<group>"; };
+		E6253F76165BEA250063B644 /* TabletsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabletsViewController.m; sourceTree = "<group>"; };
+		E6253F77165BEA250063B644 /* TabletsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabletsViewController.xib; sourceTree = "<group>"; };
+		E6253F7A165BEAAC0063B644 /* PersonalDevicesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalDevicesViewController.h; sourceTree = "<group>"; };
+		E6253F7B165BEAAC0063B644 /* PersonalDevicesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalDevicesViewController.m; sourceTree = "<group>"; };
+		E6253F7C165BEAAC0063B644 /* PersonalDevicesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonalDevicesViewController.xib; sourceTree = "<group>"; };
+		E633BE871665BD3500846171 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		E633BE881665BD3500846171 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		E633BE891665BD3500846171 /* SearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		E6421CAD16652DD7002592D7 /* DeviceInventory 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "DeviceInventory 2.xcdatamodel"; sourceTree = "<group>"; };
+		E65BC75116648B6800AB9548 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E65BC75716648F2700AB9548 /* DeviceDataAccessDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DeviceDataAccessDelegate.h; path = DataModel/DeviceDataAccessDelegate.h; sourceTree = "<group>"; };
+		E65BC7581664904500AB9548 /* DeviceDataAccessService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceDataAccessService.h; sourceTree = "<group>"; };
+		E65BC7591664904500AB9548 /* DeviceDataAccessService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceDataAccessService.m; sourceTree = "<group>"; };
 		E66F49A71657F19E00CEAF18 /* MyDeviceInventory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyDeviceInventory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E66F49AB1657F19E00CEAF18 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E66F49AD1657F19E00CEAF18 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -34,9 +92,24 @@
 		E66F49BD1657F19E00CEAF18 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		E66F49BF1657F19E00CEAF18 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		E66F49C11657F19E00CEAF18 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		E66F49C31657F19E00CEAF18 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E66F49C41657F19E00CEAF18 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E66F49C71657F19E00CEAF18 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		E66F49C31657F19E00CEAF18 /* LaptopsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LaptopsViewController.h; sourceTree = "<group>"; };
+		E66F49C41657F19E00CEAF18 /* LaptopsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LaptopsViewController.m; sourceTree = "<group>"; };
+		E66F49C71657F19E00CEAF18 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LaptopsViewController.xib; sourceTree = "<group>"; };
+		E6E640DB168783C6008741BC /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SplashViewController.h; path = ../SplashViewController.h; sourceTree = "<group>"; };
+		E6E640DC168783C6008741BC /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SplashViewController.m; path = ../SplashViewController.m; sourceTree = "<group>"; };
+		E6E640DD168783C6008741BC /* SplashViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SplashViewController.xib; path = ../SplashViewController.xib; sourceTree = "<group>"; };
+		E6E640E116878491008741BC /* asus_asipre.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = asus_asipre.jpg; sourceTree = "<group>"; };
+		E6E640E216878491008741BC /* hp_8460p.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hp_8460p.jpg; sourceTree = "<group>"; };
+		E6E640E416878491008741BC /* IPad_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IPad_3.png; sourceTree = "<group>"; };
+		E6E640E516878491008741BC /* galaxyTab.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = galaxyTab.jpg; sourceTree = "<group>"; };
+		E6E640E716878491008741BC /* satellite-s855-s5254-laptop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "satellite-s855-s5254-laptop.png"; sourceTree = "<group>"; };
+		E6E640EF168785C1008741BC /* Splash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Splash.jpg; sourceTree = "<group>"; };
+		E6E82460166E4533005A09F4 /* DeviceInventory 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "DeviceInventory 3.xcdatamodel"; sourceTree = "<group>"; };
+		E6F2DFCA1660CBCC0071F248 /* DeviceInventory.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DeviceInventory.xcdatamodel; sourceTree = "<group>"; };
+		F754A42416A7842300B4C31F /* laptop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = laptop.png; sourceTree = "<group>"; };
+		F754A42516A7842300B4C31F /* magnify.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magnify.png; sourceTree = "<group>"; };
+		F754A42616A7842300B4C31F /* phones.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phones.png; sourceTree = "<group>"; };
+		F754A42716A7842300B4C31F /* tablet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tablet.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E65BC75216648B6800AB9548 /* CoreData.framework in Frameworks */,
 				E66F49AC1657F19E00CEAF18 /* UIKit.framework in Frameworks */,
 				E66F49AE1657F19E00CEAF18 /* Foundation.framework in Frameworks */,
 				E66F49B01657F19E00CEAF18 /* CoreGraphics.framework in Frameworks */,
@@ -53,9 +127,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E602878F1693504A00A203CE /* common */ = {
+			isa = PBXGroup;
+			children = (
+				E60287911693507800A203CE /* DeviceAppUtilities.h */,
+				E60287921693507800A203CE /* DeviceAppUtilities.m */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		E6421CBA16654253002592D7 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				F754A42416A7842300B4C31F /* laptop.png */,
+				F754A42516A7842300B4C31F /* magnify.png */,
+				F754A42616A7842300B4C31F /* phones.png */,
+				F754A42716A7842300B4C31F /* tablet.png */,
+				E60ACDD7168E364C0000CDE6 /* tick.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		E65BC75616648DF700AB9548 /* DataAccess */ = {
+			isa = PBXGroup;
+			children = (
+				E6F2DFC91660CBCC0071F248 /* DeviceInventory.xcdatamodeld */,
+				E65BC75716648F2700AB9548 /* DeviceDataAccessDelegate.h */,
+				E65BC7581664904500AB9548 /* DeviceDataAccessService.h */,
+				E65BC7591664904500AB9548 /* DeviceDataAccessService.m */,
+			);
+			name = DataAccess;
+			sourceTree = "<group>";
+		};
 		E66F499C1657F19E00CEAF18 = {
 			isa = PBXGroup;
 			children = (
+				E65BC75116648B6800AB9548 /* CoreData.framework */,
 				E66F49B11657F19E00CEAF18 /* MyDeviceInventory */,
 				E66F49AA1657F19E00CEAF18 /* Frameworks */,
 				E66F49A81657F19E00CEAF18 /* Products */,
@@ -83,12 +190,17 @@
 		E66F49B11657F19E00CEAF18 /* MyDeviceInventory */ = {
 			isa = PBXGroup;
 			children = (
+				E602878F1693504A00A203CE /* common */,
+				E6B7CE90168CE8B500A975AA /* Resources */,
+				E6B7CE8D168CE88500A975AA /* Controllers */,
+				E6B7CE8F168CE89C00A975AA /* Views */,
+				E6E640E016878491008741BC /* Assets */,
+				E6421CBA16654253002592D7 /* images */,
+				E65BC75616648DF700AB9548 /* DataAccess */,
 				E66F49BA1657F19E00CEAF18 /* AppDelegate.h */,
 				E66F49BB1657F19E00CEAF18 /* AppDelegate.m */,
-				E66F49C31657F19E00CEAF18 /* ViewController.h */,
-				E66F49C41657F19E00CEAF18 /* ViewController.m */,
-				E66F49C61657F19E00CEAF18 /* ViewController.xib */,
 				E66F49B21657F19E00CEAF18 /* Supporting Files */,
+				E6F2DFD01660CD4D0071F248 /* DataModel */,
 			);
 			path = MyDeviceInventory;
 			sourceTree = "<group>";
@@ -105,6 +217,72 @@
 				E66F49C11657F19E00CEAF18 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E6B7CE8D168CE88500A975AA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E60ACDC9168E2B080000CDE6 /* DeviceDetailViewController.h */,
+				E60ACDCA168E2B080000CDE6 /* DeviceDetailViewController.m */,
+				E6E640DB168783C6008741BC /* SplashViewController.h */,
+				E6E640DC168783C6008741BC /* SplashViewController.m */,
+				E66F49C31657F19E00CEAF18 /* LaptopsViewController.h */,
+				E66F49C41657F19E00CEAF18 /* LaptopsViewController.m */,
+				E6253F75165BEA250063B644 /* TabletsViewController.h */,
+				E6253F76165BEA250063B644 /* TabletsViewController.m */,
+				E6253F7A165BEAAC0063B644 /* PersonalDevicesViewController.h */,
+				E6253F7B165BEAAC0063B644 /* PersonalDevicesViewController.m */,
+				E633BE871665BD3500846171 /* SearchViewController.h */,
+				E633BE881665BD3500846171 /* SearchViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		E6B7CE8F168CE89C00A975AA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E6E640DD168783C6008741BC /* SplashViewController.xib */,
+				E66F49C61657F19E00CEAF18 /* LaptopsViewController.xib */,
+				E6253F77165BEA250063B644 /* TabletsViewController.xib */,
+				E60ACDCB168E2B080000CDE6 /* DeviceDetailViewController.xib */,
+				E6253F7C165BEAAC0063B644 /* PersonalDevicesViewController.xib */,
+				E633BE891665BD3500846171 /* SearchViewController.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		E6B7CE90168CE8B500A975AA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E60ACDC2168E263D0000CDE6 /* Devices.json */,
+				E616D3101675642500C74DD6 /* DeviceData.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E6E640E016878491008741BC /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E6E640EF168785C1008741BC /* Splash.jpg */,
+				E60ACDBA168E22FD0000CDE6 /* macbook_pro.png */,
+				E6E640E116878491008741BC /* asus_asipre.jpg */,
+				E60ACDBC168E24AB0000CDE6 /* iPod.jpg */,
+				E6E640E216878491008741BC /* hp_8460p.jpg */,
+				E60ACDBE168E25D80000CDE6 /* Samsung-SII.jpg */,
+				E6E640E416878491008741BC /* IPad_3.png */,
+				E6E640E516878491008741BC /* galaxyTab.jpg */,
+				E6E640E716878491008741BC /* satellite-s855-s5254-laptop.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		E6F2DFD01660CD4D0071F248 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				E60ACDB7168E1F9A0000CDE6 /* Device.h */,
+				E60ACDB8168E1F9A0000CDE6 /* Device.m */,
+			);
+			name = DataModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,7 +340,28 @@
 				E66F49BE1657F19E00CEAF18 /* Default.png in Resources */,
 				E66F49C01657F19E00CEAF18 /* Default@2x.png in Resources */,
 				E66F49C21657F19E00CEAF18 /* Default-568h@2x.png in Resources */,
-				E66F49C81657F19E00CEAF18 /* ViewController.xib in Resources */,
+				E66F49C81657F19E00CEAF18 /* LaptopsViewController.xib in Resources */,
+				E6253F79165BEA250063B644 /* TabletsViewController.xib in Resources */,
+				E6253F7E165BEAAC0063B644 /* PersonalDevicesViewController.xib in Resources */,
+				E633BE8B1665BD3500846171 /* SearchViewController.xib in Resources */,
+				E616D3111675642500C74DD6 /* DeviceData.plist in Resources */,
+				E6E640DF168783C6008741BC /* SplashViewController.xib in Resources */,
+				E6E640E816878491008741BC /* asus_asipre.jpg in Resources */,
+				E6E640E916878491008741BC /* hp_8460p.jpg in Resources */,
+				E6E640EB16878491008741BC /* IPad_3.png in Resources */,
+				E6E640EC16878491008741BC /* galaxyTab.jpg in Resources */,
+				E6E640EE16878491008741BC /* satellite-s855-s5254-laptop.png in Resources */,
+				E6E640F0168785C1008741BC /* Splash.jpg in Resources */,
+				E60ACDBB168E22FD0000CDE6 /* macbook_pro.png in Resources */,
+				E60ACDBD168E24AB0000CDE6 /* iPod.jpg in Resources */,
+				E60ACDBF168E25D80000CDE6 /* Samsung-SII.jpg in Resources */,
+				E60ACDC3168E263D0000CDE6 /* Devices.json in Resources */,
+				E60ACDCD168E2B090000CDE6 /* DeviceDetailViewController.xib in Resources */,
+				E60ACDD8168E364C0000CDE6 /* tick.png in Resources */,
+				F754A42816A7842300B4C31F /* laptop.png in Resources */,
+				F754A42916A7842300B4C31F /* magnify.png in Resources */,
+				F754A42A16A7842300B4C31F /* phones.png in Resources */,
+				F754A42B16A7842300B4C31F /* tablet.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,7 +374,16 @@
 			files = (
 				E66F49B81657F19E00CEAF18 /* main.m in Sources */,
 				E66F49BC1657F19E00CEAF18 /* AppDelegate.m in Sources */,
-				E66F49C51657F19E00CEAF18 /* ViewController.m in Sources */,
+				E66F49C51657F19E00CEAF18 /* LaptopsViewController.m in Sources */,
+				E6253F78165BEA250063B644 /* TabletsViewController.m in Sources */,
+				E6253F7D165BEAAC0063B644 /* PersonalDevicesViewController.m in Sources */,
+				E6F2DFCB1660CBCC0071F248 /* DeviceInventory.xcdatamodeld in Sources */,
+				E65BC75A1664904500AB9548 /* DeviceDataAccessService.m in Sources */,
+				E633BE8A1665BD3500846171 /* SearchViewController.m in Sources */,
+				E6E640DE168783C6008741BC /* SplashViewController.m in Sources */,
+				E60ACDB9168E1F9A0000CDE6 /* Device.m in Sources */,
+				E60ACDCC168E2B090000CDE6 /* DeviceDetailViewController.m in Sources */,
+				E60287931693507800A203CE /* DeviceAppUtilities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,12 +398,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		E66F49C61657F19E00CEAF18 /* ViewController.xib */ = {
+		E66F49C61657F19E00CEAF18 /* LaptopsViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				E66F49C71657F19E00CEAF18 /* en */,
 			);
-			name = ViewController.xib;
+			name = LaptopsViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -209,9 +417,10 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Saikrishna Rao K (C2F88NTD5R)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -223,7 +432,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Debug;
 		};
@@ -235,14 +446,17 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: SAI KRISHNA KATTERISHETTY";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: SAI KRISHNA KATTERISHETTY";
 				COPY_PHASE_STRIP = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -251,10 +465,16 @@
 		E66F49CC1657F19E00CEAF18 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Saikrishna Rao K (C2F88NTD5R)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyDeviceInventory/MyDeviceInventory-Prefix.pch";
 				INFOPLIST_FILE = "MyDeviceInventory/MyDeviceInventory-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6287C908-F7E8-41DD-8373-E2C614E20E58";
+				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -262,10 +482,16 @@
 		E66F49CD1657F19E00CEAF18 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: SAI KRISHNA KATTERISHETTY";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyDeviceInventory/MyDeviceInventory-Prefix.pch";
 				INFOPLIST_FILE = "MyDeviceInventory/MyDeviceInventory-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -289,8 +515,24 @@
 				E66F49CD1657F19E00CEAF18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E6F2DFC91660CBCC0071F248 /* DeviceInventory.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E6421CAD16652DD7002592D7 /* DeviceInventory 2.xcdatamodel */,
+				E6F2DFCA1660CBCC0071F248 /* DeviceInventory.xcdatamodel */,
+				E6E82460166E4533005A09F4 /* DeviceInventory 3.xcdatamodel */,
+			);
+			currentVersion = E6F2DFCA1660CBCC0071F248 /* DeviceInventory.xcdatamodel */;
+			path = DeviceInventory.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E66F499E1657F19E00CEAF18 /* Project object */;
 }

@@ -8,14 +8,35 @@
 
 #import "AppDelegate.h"
 
-#import "ViewController.h"
+#import "LaptopsViewController.h"
+#import "TabletsViewController.h"
+#import "PersonalDevicesViewController.h"
+#import "DeviceDataAccessService.h"
+#import "SearchViewController.h"
+#import "SplashViewController.h"
+
+@interface AppDelegate ()
+
+    @property (strong, nonatomic) NSTimer *timer;
+
+    @property (strong, nonatomic)SplashViewController *splashViewController;
+
+    -(void) showApplication;
+
+@end
+
+
 
 @implementation AppDelegate
+@synthesize timer = _timer;
+@synthesize splashViewController = _splashViewController;
+
 
 - (void)dealloc
 {
     [_window release];
-    [_viewController release];
+    [_mainController release];
+    [_splashViewController release];
     [super dealloc];
 }
 
@@ -23,8 +44,31 @@
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
-    self.viewController = [[[ViewController alloc] initWithNibName:@"ViewController" bundle:nil] autorelease];
-    self.window.rootViewController = self.viewController;
+    self.mainController = [[UITabBarController alloc] init];
+    
+    UIColor *appBgcolor = [UIColor colorWithRed:0.18266 green:0.18266 blue:0.18266 alpha:1];
+    
+
+    
+    UINavigationController *laptopController = [[UINavigationController alloc] initWithRootViewController:[[LaptopsViewController alloc] initWithNibName:@"LaptopsViewController" bundle:nil]];
+    
+    [laptopController.navigationBar setTintColor:appBgcolor];
+    
+    UINavigationController *searchController = [[UINavigationController alloc] initWithRootViewController:[[SearchViewController alloc] initWithNibName:@"SearchViewController" bundle:nil]];
+    
+    [searchController.navigationBar setTintColor:appBgcolor];
+    
+    
+    NSArray *viewControllers = [NSArray arrayWithObjects: searchController,laptopController ,[[TabletsViewController alloc] init],[[PersonalDevicesViewController alloc]init], nil];
+    
+    [self.mainController setViewControllers:viewControllers animated:YES];
+    
+    
+    self.splashViewController = [[SplashViewController alloc] initWithNibName:@"SplashViewController" bundle:nil];
+    
+    self.timer = [NSTimer scheduledTimerWithTimeInterval:4 target:self selector:@selector(showApplication) userInfo:nil repeats:NO];
+
+    self.window.rootViewController = self.splashViewController;
     [self.window makeKeyAndVisible];
     return YES;
 }
@@ -54,6 +98,13 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+-(void) showApplication
+{
+    [self.splashViewController dismissSplashScreen];
+    self.window.rootViewController = self.mainController;
+    [self.window makeKeyAndVisible];
 }
 
 @end
